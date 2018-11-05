@@ -1,5 +1,5 @@
 #hello everyone. we're going to learn to use the command line interface with this quick tutorial.
-#we wont' learn everything, just what you need to get started.
+#we won't learn everything, just what you need to get started.
 #if you have questions or want to know more later, just ask.
 
 #these instructions are designed for unix users (mac and linux) if you are using windows, and a command doesn't work, ask for our help
