@@ -79,7 +79,6 @@ nano test.txt
 #grep searches for a pattern. in this example the pattern is "string". grep will return any lines in test.txt containing the characters s t r i n and g, in that order only
 grep "string" test.txt
 
-
 ##########################
 #displaying file contents#
 ##########################
@@ -96,6 +95,8 @@ less test.txt
 #pipe#
 ######
 grep "string" test.txt | less
+
+#you can pass the output of any command to another bash command, and even some 3rd party apps (most sequence processing software, for example)
 
 #quick review of what we learned so far:
 
@@ -122,6 +123,14 @@ grep "phrase" filename.txt
 
 #use grep to dump matching lines from one file into a new file
 grep "phrase" filename.txt > newfile.txt
+
+#####################################
+#using the manual page for a command#
+#####################################
+#type "man command" to see all the options for a particular command, such as ls or grep
+#it brings up the manual in a separate view, much like 'less', and you use the q key to leave and return to your original view
+man less
+man cp
 
 ################
 #removing files#
