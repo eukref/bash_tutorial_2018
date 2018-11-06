@@ -75,7 +75,6 @@ nano test.txt
 ######
 #grep#
 ######
-#cat command dumps the file contents to screen, the | character (called pipe) captures that output and passes it to the next command (in this case it is grep)
 #grep searches for a pattern. in this example the pattern is "string". grep will return any lines in test.txt containing the characters s t r i n and g, in that order only
 grep "string" test.txt
 
